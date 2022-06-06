@@ -1,7 +1,5 @@
-//! tests/health_check.rs
-
-use std::net::TcpListener;
 use sqlx::{Connection, PgConnection};
+use std::net::TcpListener;
 use zero2prod::configuration::get_configuration;
 
 // `tokio::test` is the testing equivalent of `tokio::main`.
